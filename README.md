@@ -21,4 +21,4 @@ I am a Systems Engineer at **iHuman Technology** and an undergraduate researcher
 * **Hardware:** Enthusiast in building water-cooled, high-performance PCs.
 
 ---
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-URL) | [Website](https://bahaaaldin214.github.io/profile/)
+[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-URL) | [Website](https://bahaaaldin214.github.io/bahaaaldin214/)
