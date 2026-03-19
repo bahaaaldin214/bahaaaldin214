@@ -1,27 +1,24 @@
-# Me
+# Hi, I'm Bahaa! 👋
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+**Systems Engineer | Biomedical Engineering Student | High-Performance Computing**
 
-## Development server
+I am a Systems Engineer at **iHuman Technology** and an undergraduate researcher at the **University of Iowa**. My work bridges the gap between complex biomedical data and high-performance software architecture.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 🔭 Current Work
+- **Systems Engineering:** Optimizing high-scale, cross-platform systems (C++, C#, Fortran) and managing 140+ projects at iHuman Technology.
+- **Graphics Rendering:** Migrated legacy applications to the **Diligent Engine** using C++ and Assimp for high-performance rendering.
+- **Research:** Developing ML principles to interpret computational MRI brain scan data.
 
-## Code scaffolding
+### 🛠 Tech Stack
+* **Languages:** C++, C#, Python, C, MATLAB, Swift
+* **Graphics & Game Dev:** OpenGL, Diligent Engine, Unity, Unreal Engine 5
+* **DevOps & Tools:** Docker, GitLab CI/CD, Git, Linux/Unix
+* **Data Science:** Pandas, NumPy, Scikit-learn, TensorFlow
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### ⚡ Recent Highlights
+* **Publication:** Co-authored a paper on *Santos Digital Human Modeling* for the DHM 2025 Symposium.
+* **Innovation:** Built a custom self-updating installer system with a secure backend API.
+* **Hardware:** Enthusiast in building water-cooled, high-performance PCs.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-URL) | [Website](https://bahaaaldin214.github.io/profile/)
