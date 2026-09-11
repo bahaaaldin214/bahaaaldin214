@@ -1,24 +1,25 @@
-# Hi, I'm Bahaa! 👋
+# Bahaa Mohammad
 
-**Systems Engineer | Biomedical Engineering Student | High-Performance Computing**
+Systems engineer and M.S. Electrical & Computer Engineering student at the University of Iowa (U2G). I build research and production software across C#/.NET, C++, and Python — simulation tooling, lab data pipelines, and desktop systems that have to stay reliable.
 
-I am a Systems Engineer at **iHuman Technology** and an undergraduate researcher at the **University of Iowa**. My work bridges the gap between complex biomedical data and high-performance software architecture.
+## Currently
 
-### 🔭 Current Work
-- **Systems Engineering:** Optimizing high-scale, cross-platform systems (C++, C#, Fortran) and managing 140+ projects at iHuman Technology.
-- **Graphics Rendering:** Migrated legacy applications to the **Diligent Engine** using C++ and Assimp for high-performance rendering.
-- **Research:** Developing ML principles to interpret computational MRI brain scan data.
+- **IHuman Technology** — Systems Engineer. Licensing/update delivery, C#/.NET UI work, and C++ rendering integration (including Diligent Engine migration support).
+- **Voss Lab (HBC)** — Software for BOOST actigraphy / GGIR pipelines, REDCap ID mapping, and lab automation.
 
-### 🛠 Tech Stack
-* **Languages:** C++, C#, Python, C, MATLAB, Swift
-* **Graphics & Game Dev:** OpenGL, Diligent Engine, Unity, Unreal Engine 5
-* **DevOps & Tools:** Docker, GitLab CI/CD, Git, Linux/Unix
-* **Data Science:** Pandas, NumPy, Scikit-learn, TensorFlow
+## Selected background
 
-### ⚡ Recent Highlights
-* **Publication:** Co-authored a paper on *Santos Digital Human Modeling* for the DHM 2025 Symposium.
-* **Innovation:** Built a custom self-updating installer system with a secure backend API.
-* **Hardware:** Enthusiast in building water-cooled, high-performance PCs.
+- Software engineer on a large biomechanical simulation stack (C++, C#, .NET, Fortran) at Virtual Soldier Research.
+- Co-author, DHM 2025 — Santos digital human modeling for Army Combat Fitness Test evaluation.
+- Prior MRI / ML research: multithreaded Python/BART reconstruction across multiple GPUs.
 
----
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-URL) | [Website](https://bahaaaldin214.github.io/bahaaaldin214/)
+## Tools I use most
+
+**Languages:** C#, C++, Python, TypeScript/JavaScript, SQL  
+**Systems / apps:** .NET, Docker, GitLab CI/CD, Linux  
+**Data / ML:** PyTorch, scikit-learn, Pandas, NumPy  
+**Graphics / spatial:** Diligent Engine, native interop, Mapsui/OSM (Arteria), RTAB-Map (SlamNav)
+
+## Links
+
+[LinkedIn](https://www.linkedin.com/in/bahmohammad/) · [Website](https://bahaaaldin214.github.io/bahaaaldin214/) · [Email](mailto:bahaaaldinmohammad@gmail.com)
