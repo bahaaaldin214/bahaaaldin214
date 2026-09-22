@@ -31,9 +31,8 @@
   }
 
   wireAccordion(".rail > li", ".rail-btn", "is-open");
-  wireAccordion(".build-list > li", ".build", "is-open");
 
-  const revealSel = ".meet-photo, .polaroid, .rail > li, .build-list > li";
+  const revealSel = ".meet-photo, .polaroid, .rail > li, .project";
   if (!reduce && "IntersectionObserver" in window) {
     const io = new IntersectionObserver(
       (entries) => {

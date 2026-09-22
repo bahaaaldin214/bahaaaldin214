@@ -2,6 +2,8 @@
 
 Personal site — systems & research software, Iowa City.
 
+**Static HTML only** (`index.html` + `site.css` + `main.js`). No npm packages, no Lumora template.
+
 Live: https://bahaaaldin214.github.io/bahaaaldin214/
 
 ## Local preview

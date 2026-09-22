@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Bahaa Mohammad — systems & research software. Iowa City." />
   <title>Bahaa Mohammad</title>
-  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="site.css?v=3" />
   <link rel="preload" as="image" href="assets/hero.jpg" />
 </head>
 <body>
@@ -166,37 +167,127 @@
 
     <section class="builds" id="projects">
       <h2 class="section-word">Built</h2>
-      <ul class="build-list">
-        <li>
-          <button type="button" class="build" aria-expanded="false">
-            <span class="build-name">Arteria</span>
-            <span class="build-hint">traffic chokeholds</span>
-          </button>
-          <p class="build-detail">OSM graph analysis — betweenness, bridges, live vs free-flow. C# · Avalonia.</p>
+      <ul class="project-board">
+        <li class="project" data-reveal>
+          <div class="project-top">
+            <h3 class="project-name">Arteria</h3>
+            <a class="project-ext" href="https://github.com/bahaaaldin214/arteria" target="_blank" rel="noopener">GitHub <span aria-hidden="true">›</span></a>
+          </div>
+          <p class="project-body">
+            Solo research desktop app for urban traffic and road-network structure. It finds topological
+            <strong>chokeholds</strong> — forced bottlenecks — not just slow segments: Brandes edge
+            betweenness, Hopcroft–Tarjan bridges, and detour importance on OSM graphs, with optional
+            live vs free-flow traffic overlays, historical congestion prediction, and SQLite study stores
+            for road-optimization experiments.
+          </p>
+          <ul class="tech-bubbles" aria-label="Stack">
+            <li>C#</li><li>.NET 8</li><li>Avalonia</li><li>Mapsui</li><li>OSM</li><li>SQLite</li>
+          </ul>
         </li>
-        <li>
-          <button type="button" class="build" aria-expanded="false">
-            <span class="build-name">SlamNav</span>
-            <span class="build-hint">GPS-denied maps</span>
-          </button>
-          <p class="build-detail">Point clouds, meshes, routes on Android/iOS. Kotlin · RTAB-Map · ARKit.</p>
+
+        <li class="project" data-reveal>
+          <div class="project-top">
+            <h3 class="project-name">SlamNav</h3>
+          </div>
+          <p class="project-body">
+            GPS-denied indoor mapping on Android and iOS. A shared C++ RTAB-Map layer produces point
+            clouds, 3D meshes, labels, and routes in-app, with a Kotlin Multiplatform UI bridged through
+            JNI and Objective-C, and sensing/rendering native on ARCore and ARKit.
+          </p>
+          <ul class="tech-bubbles" aria-label="Stack">
+            <li>Kotlin Multiplatform</li><li>C++</li><li>RTAB-Map</li><li>Swift</li><li>ARCore</li><li>ARKit</li>
+          </ul>
         </li>
-        <li>
-          <button type="button" class="build" aria-expanded="false">
-            <span class="build-name">CircSim</span>
-            <span class="build-hint">TI-84 solver</span>
-          </button>
-          <p class="build-detail">Nodal circuit solver under calculator memory limits. Pure C.</p>
+
+        <li class="project" data-reveal>
+          <div class="project-top">
+            <h3 class="project-name">AlamirAuto</h3>
+            <a class="project-ext" href="https://alamirauto.com/" target="_blank" rel="noopener">Live site <span aria-hidden="true">›</span></a>
+          </div>
+          <p class="project-body">
+            Full-stack dealership marketplace: TypeScript/React storefront with data-driven filters and
+            search, Node/MongoDB backend, and role-based admin paths so staff can create and manage
+            listings, run daily backups, and update inventory without exposing staff-only controls on
+            the customer site.
+          </p>
+          <ul class="tech-bubbles" aria-label="Stack">
+            <li>TypeScript</li><li>React</li><li>Node.js</li><li>MongoDB</li><li>Full-Stack</li>
+          </ul>
         </li>
-        <li>
-          <button type="button" class="build" aria-expanded="false">
-            <span class="build-name">AlamirAuto</span>
-            <span class="build-hint">dealership web</span>
-          </button>
-          <p class="build-detail">Marketplace + role-based inventory. React · Node · MongoDB.</p>
+
+        <li class="project" data-reveal>
+          <div class="project-top">
+            <h3 class="project-name">3D Cartilage Visualization &amp; Analysis</h3>
+          </div>
+          <p class="project-body">
+            Senior design software for Discrete Element Analysis (DEA) on bone meshes derived from CT
+            scans — simulating how cartilage distributes across the surface so clinicians and researchers
+            can inspect load patterns in 3D instead of guessing from 2D slices. C#/.NET drives the app,
+            with a C++ wrapper into a MATLAB SDK for the numerical core.
+          </p>
+          <ul class="tech-bubbles" aria-label="Stack">
+            <li>C# / .NET</li><li>C++ (Wrapper)</li><li>MATLAB (SDK)</li><li>Medical Imaging</li>
+          </ul>
+        </li>
+
+        <li class="project" data-reveal>
+          <div class="project-top">
+            <h3 class="project-name">CircSim</h3>
+          </div>
+          <p class="project-body">
+            A full-featured circuit analysis tool built from scratch in C for the TI-84 — UX/UI included —
+            with solvers for nodal analysis, Thévenin equivalents, and related modes under calculator
+            memory limits (~199K+ byte codebase). Structured so new analysis modes can extend the engine
+            without a full rewrite.
+          </p>
+          <ul class="tech-bubbles" aria-label="Stack">
+            <li>C</li><li>Embedded Systems</li><li>TI-84</li><li>ECE</li>
+          </ul>
+        </li>
+
+        <li class="project" data-reveal>
+          <div class="project-top">
+            <h3 class="project-name">Real-Time System Hooking Tool</h3>
+          </div>
+          <p class="project-body">
+            A C++ systems utility for researching Windows API hooking, inter-process communication, and
+            real-time data extraction from sandboxed applications — the kind of low-level plumbing you
+            need when studying how processes talk without a friendly public API.
+          </p>
+          <ul class="tech-bubbles" aria-label="Stack">
+            <li>C++</li><li>Windows API</li><li>DLL Injection</li><li>Systems</li>
+          </ul>
+        </li>
+
+        <li class="project" data-reveal>
+          <div class="project-top">
+            <h3 class="project-name">Python Research Analysis Tools</h3>
+          </div>
+          <p class="project-body">
+            Custom Python scripts for mini-analysis and post-analysis of quantitative research data —
+            cleaning runs, summarizing cohorts, and auto-generating graphs so non-technical partners can
+            read results without digging through raw tables.
+          </p>
+          <ul class="tech-bubbles" aria-label="Stack">
+            <li>Python</li><li>Pandas</li><li>NumPy</li><li>Matplotlib</li>
+          </ul>
+        </li>
+
+        <li class="project" data-reveal>
+          <div class="project-top">
+            <h3 class="project-name">2D Physics Game Engine</h3>
+          </div>
+          <p class="project-body">
+            A 2D game in Swift with a custom physics engine and polygon-based collision detection —
+            a ship that can dynamically “chip away” at target blocks. Separated render, event, and
+            object concerns so the simulation stays playable under interactive load.
+          </p>
+          <ul class="tech-bubbles" aria-label="Stack">
+            <li>Swift</li><li>SpriteKit</li><li>Game Dev</li><li>Physics</li>
+          </ul>
         </li>
       </ul>
-      <p class="credit">DHM 2025 co-author · Santos / Army Combat Fitness Test</p>
+      <p class="credit">Also: Quixotic (JS/GLSL modular engine) · DHM 2025 co-author · Santos / Army Combat Fitness Test</p>
     </section>
 
     <!-- Polaroid scatter on black -->
@@ -303,6 +394,6 @@
     <span>© <span id="year"></span> Bahaa Mohammad · Iowa City, IA</span>
   </footer>
 
-  <script src="main.js" defer></script>
+  <script src="main.js?v=3" defer></script>
 </body>
 </html>

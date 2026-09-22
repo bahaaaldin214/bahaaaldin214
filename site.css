@@ -525,87 +525,91 @@ a {
   font-weight: 600;
 }
 
-/* —— Builds: accordion, not cards —— */
+/* —— Built: project board + tech bubbles —— */
 .builds {
   padding: 90px 22px 80px;
   max-width: 920px;
   margin: 0 auto;
 }
 
-.build-list {
+.project-board {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.build-list > li {
+.project {
+  padding: 32px 0;
   border-top: 1px solid var(--line);
 }
 
-.build-list > li:last-child {
+.project:last-child {
   border-bottom: 1px solid var(--line);
 }
 
-.build {
-  width: 100%;
+.project-top {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 16px;
-  padding: 26px 0;
-  border: 0;
-  background: transparent;
-  font: inherit;
-  text-align: left;
-  cursor: pointer;
-  color: var(--ink);
+  justify-content: space-between;
+  gap: 8px 20px;
+  margin-bottom: 12px;
 }
 
-.build[aria-expanded="true"] .build-name,
-.build:hover .build-name,
-.build:focus-visible .build-name {
-  color: var(--rose);
-  transform: scale(1.03);
-}
-
-.build-name {
-  font-size: clamp(28px, 4vw, 40px);
+.project-name {
+  margin: 0;
+  font-size: clamp(24px, 3.5vw, 34px);
   font-weight: 600;
   letter-spacing: -0.03em;
-  display: inline-block;
-  transform-origin: left center;
-  transition: color 0.25s ease, transform 0.35s var(--spring);
+  line-height: 1.15;
 }
 
-.build-hint {
-  font-size: 14px;
-  color: var(--mute);
-  flex-shrink: 0;
-  transition: color 0.25s ease;
+.project-ext {
+  font-size: 15px;
+  color: var(--rose);
+  text-decoration: none;
+  white-space: nowrap;
 }
 
-.build:hover .build-hint,
-.build:focus-visible .build-hint,
-.build[aria-expanded="true"] .build-hint {
-  color: var(--ink);
+.project-ext:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.build-detail {
-  margin: 0;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
+.project-body {
+  margin: 0 0 18px;
+  max-width: 42em;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
   color: var(--mute);
-  padding: 0;
-  transition: max-height 0.45s var(--spring), opacity 0.35s ease,
-    padding 0.35s ease;
 }
 
-.build-list > li.is-open .build-detail {
-  max-height: 120px;
-  opacity: 1;
-  padding: 0 0 24px;
+.project-body strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.tech-bubbles {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-bubbles li {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--ink);
 }
 
 .credit {
@@ -1010,23 +1014,34 @@ a {
   z-index: 1;
 }
 
-/* —— Motion helpers —— */
+/* —— Motion helpers (visible without JS — no blank-page trap) —— */
 .meet-photo,
 .rail > li,
-.build-list > li {
-  opacity: 0;
-  transform: translateY(24px);
+.project {
   transition: opacity 0.7s ease, transform 0.8s var(--spring);
 }
 
 .polaroid {
-  opacity: 0;
   transition: opacity 0.7s ease;
+}
+
+/* Only fade-in when JS marked the document */
+html.js .meet-photo:not(.is-in),
+html.js .rail > li:not(.is-in),
+html.js .project:not(.is-in),
+html.js .polaroid:not(.is-in) {
+  opacity: 0;
+}
+
+html.js .meet-photo:not(.is-in),
+html.js .rail > li:not(.is-in),
+html.js .project:not(.is-in) {
+  transform: translateY(24px);
 }
 
 .is-in.meet-photo,
 .rail > li.is-in,
-.build-list > li.is-in {
+.project.is-in {
   opacity: 1;
   transform: none;
 }
@@ -1059,7 +1074,7 @@ a {
   .meet-photo,
   .polaroid,
   .rail > li,
-  .build-list > li,
+  .project,
   .hero-img {
     opacity: 1 !important;
     transition: none !important;
