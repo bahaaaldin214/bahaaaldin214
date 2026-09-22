@@ -3,14 +3,7 @@
   if (year) year.textContent = String(new Date().getFullYear());
 
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const nav = document.getElementById("nav");
   const hero = document.querySelector(".hero");
-
-  function syncNav() {
-    if (!nav || !hero) return;
-    const past = window.scrollY > hero.offsetHeight - 48;
-    nav.classList.toggle("is-solid", past);
-  }
 
   function wireAccordion(listSel, btnSel, openClass) {
     document.querySelectorAll(listSel).forEach((li) => {
@@ -164,7 +157,6 @@
       floatEl.style.transform = `translate3d(0, ${lift.toFixed(1)}px, 0)`;
     }
 
-    syncNav();
     requestAnimationFrame(frame);
   }
 
@@ -176,7 +168,5 @@
     { passive: true }
   );
 
-  syncNav();
   if (!reduce) requestAnimationFrame(frame);
-  else window.addEventListener("scroll", syncNav, { passive: true });
 })();
