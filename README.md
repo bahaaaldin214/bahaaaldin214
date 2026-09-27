@@ -14,7 +14,9 @@ npx --yes serve . -p 5180
 
 ## Resume
 
-[`Bahaaaldin_Mohammad_Software_Engineer.pdf`](./Bahaaaldin_Mohammad_Software_Engineer.pdf)
+[`Bahaaaldin_Mohammad_Software_Engineer.pdf`](./Bahaaaldin_Mohammad_Software_Engineer.pdf) — Kalindi fair One Pager (v4; Meet me → QR). Updated 2026-09-26.
+
+For online ATS portals, prefer the vault ATS twin: `Careers/personal Resume/02_One_Page_Resume/Bahaa_Mohammad_Software_Engineer.pdf`.
 
 ## Links
 
