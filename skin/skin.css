@@ -20,7 +20,7 @@
 
 html {
   scroll-behavior: smooth;
-  background: var(--paper);
+  background-color: #f6f4f1;
 }
 
 body {
@@ -28,10 +28,11 @@ body {
   min-height: 100vh;
   font-family: var(--sans);
   color: var(--ink);
-  background:
-    radial-gradient(1200px 600px at 85% -10%, rgba(180, 35, 46, 0.08), transparent 55%),
-    radial-gradient(900px 500px at -10% 40%, rgba(107, 135, 168, 0.14), transparent 50%),
-    linear-gradient(180deg, #f8f6f3 0%, var(--paper) 40%, #efeae4 100%);
+  background-color: #f6f4f1;
+  background-image:
+    radial-gradient(1200px 600px at 85% -10%, rgba(180, 35, 46, 0.1), transparent 55%),
+    radial-gradient(900px 500px at -10% 40%, rgba(107, 135, 168, 0.16), transparent 50%);
+  background-attachment: fixed;
   font-size: 17px;
   line-height: 1.45;
   letter-spacing: -0.02em;
@@ -58,9 +59,9 @@ body {
   position: fixed;
   inset: 0;
   z-index: 0;
-  opacity: 0.35;
+  opacity: 0.18;
+  background-color: transparent;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.45'/%3E%3C/svg%3E");
-  mix-blend-mode: multiply;
 }
 
 .orb {
