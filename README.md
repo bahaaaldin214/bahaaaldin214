@@ -40,7 +40,7 @@
 ### Live GitHub signal
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=bahaaaldin214&show_icons=true&include_all_commits=true&count_private=true&title_color=141414&text_color=5c5c5c&icon_color=b4232e&bg_color=f6f4f1&border_color=e5e1db&ring_color=b4232e&hide_border=false" alt="Bahaaaldin GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=bahaaaldin214&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&title_color=141414&text_color=5c5c5c&icon_color=b4232e&bg_color=f6f4f1&border_color=e5e1db&ring_color=b4232e&hide_border=false" alt="Bahaaaldin GitHub stats" />
   <img height="160" src="assets/langs-all.svg" alt="Most used languages including private repos" />
 </p>
 
