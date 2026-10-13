@@ -1,49 +1,118 @@
-<h3 align="center">Systems &amp; research software · Iowa City</h3>
+<div align="center">
+
+<table width="100%">
+<tr>
+<td width="64%" valign="middle">
+<p><sub>RECRUITER SIGNAL BRIEF · bahaaaldin214</sub></p>
+<h1>Bahaaaldin Mohammad</h1>
+<h2>Frontend or full-stack engineer</h2>
+<p>M.S. Electrical &amp; Computer Engineering. Software engineering*. 
+
+B.S.E. Biomedical Engineeringn</p>
+<p><strong>● Building and sharing work in public</strong></p>
+
+<p><a href="https://github.com/bahaaaldin214">GitHub</a> &nbsp;·&nbsp; <a href="https://bahaaaldin214.github.io/bahaaaldin214/">Website</a></p>
+</td>
+<td width="36%" valign="middle" align="center">
+<img src="https://avatars.githubusercontent.com/u/17104694?u=95065b44f4c63357698e395aaca462c7d47b91ff&amp;v=4" width="180" alt="Bahaaaldin Mohammad GitHub avatar" />
+</td>
+</tr>
+</table>
+</div>
+
+<h2>What teams can evaluate quickly</h2>
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3>Role fit</h3><p>Frontend or full-stack engineer · JavaScript · C# · HTML</p></td>
+<td width="33%" valign="top"><h3>Public proof</h3><p>10 repositories · 9 stars</p></td>
+<td width="33%" valign="top"><h3>Momentum</h3><p>1,738 contributions · 142 active days</p></td>
+</tr>
+</table>
+
+<p><sub>M.S. Electrical &amp; Computer Engineering. Software engineering*. 
+
+B.S.E. Biomedical Engineeringn</sub></p>
+
+<h2>Proof at a glance</h2>
+
+<table width="100%">
+<tr>
+<td width="25%" align="center"><strong>10</strong><br /><sub>Repositories</sub></td>
+<td width="25%" align="center"><strong>9</strong><br /><sub>Stars</sub></td>
+<td width="25%" align="center"><strong>1,738</strong><br /><sub>Contributions</sub></td>
+<td width="25%" align="center"><strong>6</strong><br /><sub>Followers</sub></td>
+</tr>
+</table>
 
 <p align="center">
-  M.S. Electrical &amp; Computer Engineering (Software Engineering) at the University of Iowa.<br/>
-  I build simulation tooling, lab data pipelines, and desktop systems that have to stay reliable.
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=bahaaaldin214&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17104694%3Fu%3D95065b44f4c63357698e395aaca462c7d47b91ff%26v%3D4&v=recruiter-stats-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stats?username=bahaaaldin214&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17104694%3Fu%3D95065b44f4c63357698e395aaca462c7d47b91ff%26v%3D4&v=recruiter-stats-1&mode=dark" width="100%" alt="Bahaaaldin Mohammad GitHub proof metrics" />
+</picture>
 </p>
+
+<h2>Selected work</h2>
+
+<table width="100%">
+<tr>
+<td width="58%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=bahaaaldin214&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17104694%3Fu%3D95065b44f4c63357698e395aaca462c7d47b91ff%26v%3D4&repos=bahaaaldin214%2FQuixotic%2Cbahaaaldin214%2FcssAnimations%2Cbahaaaldin214%2FTile-Map-Builder&v=recruiter-projects-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/projects?username=bahaaaldin214&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17104694%3Fu%3D95065b44f4c63357698e395aaca462c7d47b91ff%26v%3D4&repos=bahaaaldin214%2FQuixotic%2Cbahaaaldin214%2FcssAnimations%2Cbahaaaldin214%2FTile-Map-Builder&v=recruiter-projects-1&mode=dark" width="100%" alt="Bahaaaldin Mohammad selected projects" />
+</picture>
+</td>
+<td width="42%" valign="top">
+<h3><a href="https://github.com/bahaaaldin214/Quixotic">Quixotic</a></h3>
+<p>A game engine designed to make creating games fun!</p>
+<p><sub>JavaScript · ⭐ 4 · 🍴 1</sub></p>
+<p><a href="https://github.com/bahaaaldin214/Quixotic">Read the repository →</a></p>
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3><a href="https://github.com/bahaaaldin214/cssAnimations">cssAnimations</a></h3><p>A very simple and easy to use css animation library</p><p><sub>JavaScript · ⭐ 3</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/bahaaaldin214/Tile-Map-Builder">Tile-Map-Builder</a></h3><p>A selected public project.</p><p><sub>JavaScript · ⭐ 1</sub></p></td>
+</tr>
+</table>
+
+<h2>Technical toolkit</h2>
 
 <p align="center">
-  <a href="https://bahaaaldin214.github.io/bahaaaldin214/"><strong>Personal site ›</strong></a>
-  ·
-  <a href="https://www.linkedin.com/in/bahmohammad/">LinkedIn</a>
-  ·
-  <a href="mailto:bahaaaldinmohammad@gmail.com">Email</a>
-  ·
-  <a href="https://bahaaaldin214.github.io/bahaaaldin214/Bahaaaldin_Mohammad_Software_Engineer.pdf">Resume</a>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=bahaaaldin214&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17104694%3Fu%3D95065b44f4c63357698e395aaca462c7d47b91ff%26v%3D4&v=recruiter-stack-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stack?username=bahaaaldin214&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17104694%3Fu%3D95065b44f4c63357698e395aaca462c7d47b91ff%26v%3D4&v=recruiter-stack-1&mode=dark" width="100%" alt="Bahaaaldin Mohammad technology stack" />
+</picture>
 </p>
 
----
+<table width="100%">
+<tr>
+<td width="20%" align="center"><strong>JavaScript</strong><br /><sub>33% of public code</sub></td>
+<td width="20%" align="center"><strong>C#</strong><br /><sub>33% of public code</sub></td>
+<td width="20%" align="center"><strong>HTML</strong><br /><sub>8% of public code</sub></td>
+<td width="20%" align="center"><strong>C++</strong><br /><sub>8% of public code</sub></td>
+<td width="20%" align="center"><strong>CSS</strong><br /><sub>6% of public code</sub></td>
+</tr>
+</table>
 
-### Currently
-
-- **Voss Lab (HBC)** - Software Engineer. BOOST OBS pipelines: JATOS → GGIR → REDCap → Python debriefs; weekly 110 GB+ multi-source sync.
-- **IHuman Technology** - Systems Engineer. C#/.NET release delivery, C++ Diligent rendering integration, lighter installs.
-
-### Selected background
-
-- **I-STRIKE / VSR** - MuJoCo inside Santos (215 DOF); maintained a 140+ project C++/C#/.NET/Fortran biomechanical suite.
-- **MRI Lab** - Multithreaded Python/BART reconstruction across 4 GPUs (~5× faster).
-- Co-author, DHM 2025 - Santos digital human modeling for Army Combat Fitness Test evaluation.
-
-### Built (selected)
-
-| Project | What it is |
-| --- | --- |
-| [Arteria](https://bahaaaldin214.github.io/bahaaaldin214/#built) | Traffic / road-network structure - chokeholds, bridges, detour importance on OSM graphs |
-| [SlamNav](https://bahaaaldin214.github.io/bahaaaldin214/#built) | GPS-denied indoor mapping - shared C++ RTAB-Map + KMP on ARCore / ARKit |
-| [AlamirAuto](https://bahaaaldin214.github.io/bahaaaldin214/#built) | Full-stack dealership marketplace - React + Node + MongoDB |
-| [Quixotic](https://github.com/bahaaaldin214/Quixotic) | Game engine experiment |
-
-### Live GitHub signal
+<h2>Consistency signal</h2>
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=bahaaaldin214&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&title_color=141414&text_color=5c5c5c&icon_color=b4232e&bg_color=f6f4f1&border_color=e5e1db&ring_color=b4232e&hide_border=false" alt="Bahaaaldin GitHub stats" />
-  <img height="160" src="assets/langs-all.svg" alt="Most used languages including private repos" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=bahaaaldin214&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17104694%3Fu%3D95065b44f4c63357698e395aaca462c7d47b91ff%26v%3D4&v=recruiter-heatmap-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=bahaaaldin214&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17104694%3Fu%3D95065b44f4c63357698e395aaca462c7d47b91ff%26v%3D4&v=recruiter-heatmap-1&mode=dark" width="100%" alt="Bahaaaldin Mohammad contribution activity" />
+</picture>
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=bahaaaldin214&theme=default&background=f6f4f1&ring=b4232e&fire=b4232e&currStreakLabel=141414&sideLabels=5c5c5c&currStreakNum=141414&sideNums=5c5c5c&dates=5c5c5c&stroke=e5e1db" alt="GitHub streak" />
-</p>
+<hr />
+
+<table width="100%">
+<tr>
+<td width="62%" valign="middle"><h2>Let’s talk about the next build</h2><p>Open to thoughtful teams, ambitious products, and useful engineering work.</p></td>
+<td width="38%" valign="middle" align="right"><a href="https://github.com/bahaaaldin214">GitHub</a><br /><a href="https://bahaaaldin214.github.io/bahaaaldin214/">Website</a></td>
+</tr>
+</table>
+
+<p align="center"><sub>Bahaaaldin Mohammad · recruiter-ready profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
