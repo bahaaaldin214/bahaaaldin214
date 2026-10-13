@@ -1,17 +1,3 @@
-<!--
-  Cafe Frame profile skin - matches the personal site palette
-  (paper / ink / rose). Drop into bahaaaldin214/README.md.
-  Site stays the source of truth: https://bahaaaldin214.github.io/bahaaaldin214/
--->
-
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Bahaa Mohammad - systems &amp; research software" width="100%" />
-</p>
-
-<p align="center">
-  <img src="assets/stat-chip.svg" alt="Focus, now, base, lens" width="100%" />
-</p>
-
 <h3 align="center">Systems &amp; research software · Iowa City</h3>
 
 <p align="center">
