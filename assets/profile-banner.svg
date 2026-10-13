@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Bahaa Mohammad  systems &amp; research software">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f6f3"/>
+      <stop offset="55%" stop-color="#f6f4f1"/>
+      <stop offset="100%" stop-color="#efeae4"/>
+    </linearGradient>
+    <linearGradient id="roseWash" x1="0" y1="0.5" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#b4232e" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#b4232e" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#6b87a8" stop-opacity="0.12"/>
+    </linearGradient>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="#141414" opacity="0.04"/>
+      <circle cx="3" cy="3" r="0.4" fill="#141414" opacity="0.03"/>
+    </pattern>
+    <style>
+      .title { font: 700 64px "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; fill: #141414; letter-spacing: -0.03em; }
+      .sub { font: 500 22px "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #5c5c5c; letter-spacing: -0.02em; }
+      .meta { font: 600 14px "SF Mono", ui-monospace, Menlo, Consolas, monospace; fill: #b4232e; letter-spacing: 0.08em; text-transform: uppercase; }
+      .rule { stroke: #b4232e; stroke-width: 2; }
+      .scan { fill: #b4232e; opacity: 0.35; }
+      @keyframes drift {
+        0% { transform: translateX(-40px); opacity: 0; }
+        20% { opacity: 0.35; }
+        80% { opacity: 0.35; }
+        100% { transform: translateX(1240px); opacity: 0; }
+      }
+      .scan { animation: drift 7s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .scan { animation: none; opacity: 0.2; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#paper)"/>
+  <rect width="1200" height="360" fill="url(#roseWash)"/>
+  <rect width="1200" height="360" fill="url(#grain)"/>
+
+  <!-- soft constellation -->
+  <g fill="none" stroke="#141414" stroke-opacity="0.08" stroke-width="1">
+    <path d="M80 280 L180 120 L320 220 L460 90 L620 200 L780 70 L960 180 L1120 110"/>
+  </g>
+  <g fill="#141414" fill-opacity="0.18">
+    <circle cx="180" cy="120" r="3.5"/>
+    <circle cx="320" cy="220" r="2.5"/>
+    <circle cx="460" cy="90" r="4"/>
+    <circle cx="620" cy="200" r="2.5"/>
+    <circle cx="780" cy="70" r="3"/>
+    <circle cx="960" cy="180" r="3.5"/>
+  </g>
+  <g fill="#b4232e" fill-opacity="0.55">
+    <circle cx="460" cy="90" r="2"/>
+    <circle cx="780" cy="70" r="2"/>
+  </g>
+
+  <rect class="scan" x="0" y="0" width="48" height="360"/>
+
+  <text class="meta" x="72" y="92">CAFE FRAME � PROFILE SKIN</text>
+  <line class="rule" x1="72" y1="112" x2="168" y2="112"/>
+  <text class="title" x="72" y="190">Bahaa Mohammad</text>
+  <text class="sub" x="72" y="236">Systems &amp; research software � Iowa City</text>
+  <text class="sub" x="72" y="276">C# � C++ � Python � pipelines that stay reliable</text>
+</svg>

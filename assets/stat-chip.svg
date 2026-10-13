@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Profile chips">
+  <defs>
+    <style>
+      .chip { fill: #f6f4f1; stroke: rgba(20,20,20,0.12); stroke-width: 1; }
+      .label { font: 600 13px "SF Mono", ui-monospace, Menlo, Consolas, monospace; fill: #b4232e; letter-spacing: 0.06em; }
+      .value { font: 650 28px "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; fill: #141414; letter-spacing: -0.02em; }
+    </style>
+  </defs>
+  <rect width="1200" height="120" fill="#f6f4f1"/>
+
+  <g transform="translate(0,0)">
+    <rect class="chip" x="0.5" y="0.5" width="288" height="119" rx="10"/>
+    <text class="label" x="28" y="42">FOCUS</text>
+    <text class="value" x="28" y="82">Systems eng</text>
+  </g>
+  <g transform="translate(304,0)">
+    <rect class="chip" x="0.5" y="0.5" width="288" height="119" rx="10"/>
+    <text class="label" x="28" y="42">NOW</text>
+    <text class="value" x="28" y="82">Voss · IHuman</text>
+  </g>
+  <g transform="translate(608,0)">
+    <rect class="chip" x="0.5" y="0.5" width="288" height="119" rx="10"/>
+    <text class="label" x="28" y="42">BASE</text>
+    <text class="value" x="28" y="82">Iowa ECE</text>
+  </g>
+  <g transform="translate(912,0)">
+    <rect class="chip" x="0.5" y="0.5" width="287" height="119" rx="10"/>
+    <text class="label" x="28" y="42">LENS</text>
+    <text class="value" x="28" y="82">Photo · travel</text>
+  </g>
+</svg>
