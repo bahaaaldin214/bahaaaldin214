@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Cloudflare email-obfuscation links; they answer 404 without the fragment and show up in Search Console.
+Disallow: /cdn-cgi/
